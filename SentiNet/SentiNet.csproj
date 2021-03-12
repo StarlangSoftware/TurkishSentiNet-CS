@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <PackageId>NlpToolkit-SentiNet</PackageId>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <OutputType>Library</OutputType>
+        <IsPackable>true</IsPackable>
+        <PackageVersion>1.0.1</PackageVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="turkish_sentinet.xml" />
+      <EmbeddedResource Include="turkish_sentinet.xml" />
+    </ItemGroup>
+
+</Project>

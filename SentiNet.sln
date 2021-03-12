@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentiNet", "SentiNet\SentiNet.csproj", "{F39FC304-4736-4423-97CA-A2CDC94009B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{B8CE9AAE-ABA4-48AD-B808-93D601E7E7C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F39FC304-4736-4423-97CA-A2CDC94009B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39FC304-4736-4423-97CA-A2CDC94009B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39FC304-4736-4423-97CA-A2CDC94009B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39FC304-4736-4423-97CA-A2CDC94009B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F39FC304-4736-4423-97CA-A2CDC94009B5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B8CE9AAE-ABA4-48AD-B808-93D601E7E7C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8CE9AAE-ABA4-48AD-B808-93D601E7E7C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8CE9AAE-ABA4-48AD-B808-93D601E7E7C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8CE9AAE-ABA4-48AD-B808-93D601E7E7C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
