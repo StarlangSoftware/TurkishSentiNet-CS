@@ -68,7 +68,7 @@ namespace SentiNet
 
         public SentiNet(string fileName)
         {
-            LoadSentiNet(File.Create(fileName));
+            LoadSentiNet(File.OpenRead(fileName));
         }
 
         /**
