@@ -6,12 +6,18 @@
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <OutputType>Library</OutputType>
         <IsPackable>true</IsPackable>
-        <PackageVersion>1.0.2</PackageVersion>
+        <PackageVersion>1.0.3</PackageVersion>
     </PropertyGroup>
 
     <ItemGroup>
       <None Remove="turkish_sentinet.xml" />
-      <EmbeddedResource Include="turkish_sentinet.xml" />
+      <EmbeddedResource Include="turkish_sentinet.xml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="turkish_sentiliteralnet.xml" />
+      <EmbeddedResource Include="turkish_sentiliteralnet.xml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
     </ItemGroup>
 
 </Project>
