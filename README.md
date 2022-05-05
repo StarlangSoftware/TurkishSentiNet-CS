@@ -27,6 +27,11 @@ Subsequently, a second labeling was further made on positive and negative words 
 |Negative|1,238|
 |Weakly negative|3,360|
 
+Video Lectures
+============
+
+[<img src="https://github.com/StarlangSoftware/TurkishSentiNet/blob/master/video1.jpg" width="50%">](https://youtu.be/CdHSwgq2lTE)[<img src="https://github.com/StarlangSoftware/TurkishSentiNet/blob/master/video2.jpg" width="50%">](https://youtu.be/_tbrvPlG87Y)
+
 # For Developers
 
 You can also see [Java](https://github.com/starlangsoftware/TurkishSentiNet), [Python](https://github.com/starlangsoftware/TurkishSentiNet-Py), [Cython](https://github.com/starlangsoftware/TurkishSentiNet-Cy), [Swift](https://github.com/starlangsoftware/TurkishSentiNet-Swift), [Js](https://github.com/starlangsoftware/TurkishSentiNet-Js), or [C++](https://github.com/starlangsoftware/TurkishSentiNet-CPP) repository.
