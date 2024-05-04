@@ -19,6 +19,10 @@ namespace SentiNet
             return _sentiLiteralList[name];
         }
 
+        /// <summary>
+        /// Reads the Xml file that contains names of sentiSynSets and their positive, negative scores.
+        /// </summary>
+        /// <param name="stream">Xml document that contains the SentiNet.</param>
         private void LoadSentiNet(Stream stream)
         {
             String name = "";
@@ -66,6 +70,10 @@ namespace SentiNet
             LoadSentiNet(stream);
         }
 
+        /// <summary>
+        /// Constructor for the SentiLiteralNet class with the given domain SentiLiteralNet Xml document.
+        /// </summary>
+        /// <param name="fileName">File that contains domain SentiLiteralNet</param>
         public SentiLiteralNet(string fileName)
         {
             LoadSentiNet(File.OpenRead(fileName));
