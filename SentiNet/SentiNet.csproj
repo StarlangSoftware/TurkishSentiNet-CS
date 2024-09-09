@@ -1,12 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netcoreapp3.1</TargetFramework>
         <PackageId>NlpToolkit-SentiNet</PackageId>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <OutputType>Library</OutputType>
         <IsPackable>true</IsPackable>
         <PackageVersion>1.0.4</PackageVersion>
+        <TargetFrameworks>netcoreapp3.1;net8.0</TargetFrameworks>
     </PropertyGroup>
 
     <ItemGroup>
